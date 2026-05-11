@@ -8,6 +8,7 @@ int main() {
 
     MediaCatalog media_catalog("");
     media_catalog.load();
+    media_catalog.analyze();
     media_catalog.save("");
     return 0;
 }
